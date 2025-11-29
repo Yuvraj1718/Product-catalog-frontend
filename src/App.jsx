@@ -12,11 +12,13 @@ function App() {
 
   // API Calling
   useEffect(() => {
-    fetch('http://localhost:8080/api/products')
+    // fetch('http://localhost:8080/api/products')
+    fetch('https://product-catalog-backend-2-0bia.onrender.com/api/products')
       .then(response => response.json())
       .then(data => setProducts(data));
 
-    fetch('http://localhost:8080/api/categories')
+    // fetch('http://localhost:8080/api/categories')
+    fetch('https://product-catalog-backend-2-0bia.onrender.com/api/categories')
       .then(response => response.json())
       .then(data => setCategories(data));
 
