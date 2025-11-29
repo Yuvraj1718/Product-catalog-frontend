@@ -1,12 +1,54 @@
-# React + Vite
+# 🛒 Product Catalog Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for browsing and managing products across categories. Built with **Spring Boot** for the backend and **React.js** for the frontend, the app supports category filtering, product search, and price-based sorting.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🗂️ View products categorized by Electronics, Clothing, and Home & Kitchen
+- 🔍 Real-time search functionality
+- 🔃 Sort products by price (Low to High / High to Low)
+- 📦 Backend APIs built using Spring Boot and JPA
+- 💾 Data stored and retrieved from MySQL
+- 🧪 Auto-seeded product and category data on server start
+- 💡 Responsive and clean UI with Bootstrap
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Lombok
+- CommandLineRunner for data seeding
+
+### Frontend
+- React.js
+- JavaScript (ES6)
+- Bootstrap 5
+- Fetch API
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Java 17+
+- Node.js and npm
+- MySQL
+- Spring Boot-compatible IDE (e.g., IntelliJ, VS Code)
+
+---
+
+### ⚙️ Backend Setup
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/product-catalog.git
+   cd product-catalog/backend
